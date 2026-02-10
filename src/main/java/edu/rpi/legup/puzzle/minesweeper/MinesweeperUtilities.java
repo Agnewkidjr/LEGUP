@@ -123,7 +123,7 @@ public final class MinesweeperUtilities {
     }
 
 
-    //function might work better just as an if statement connected to  countSurroundingEmpty
+    //function might work better just as an if statement connected to countSurroundingEmpty
     /**
      * Calculate if there is an empty adjacent cell and returns true if is
      * @param board board gets the board to read the data from.
