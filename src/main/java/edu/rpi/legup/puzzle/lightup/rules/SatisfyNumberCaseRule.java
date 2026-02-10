@@ -175,13 +175,13 @@ public class SatisfyNumberCaseRule extends CaseRule {
                     LightUpCell modCell = (LightUpCell) mod.copy();
                     Point modLoc = modCell.getLocation();
 
-                    modCell.setData(LightUpCellType.BULB.value);  // FIXED: Changed from -4
+                    modCell.setData(LightUpCellType.BULB.value);
 
                     newCase.setCell(modLoc.x, modLoc.y, modCell);
                     newCase.addModifiedData(modCell);
                 }
 
-                newCell.setData(LightUpCellType.BULB.value);  // FIXED: Changed from -4
+                newCell.setData(LightUpCellType.BULB.value);
 
                 newCase.setCell(loc.x, loc.y, newCell);
                 newCase.addModifiedData(newCell);
